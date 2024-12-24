@@ -5,6 +5,7 @@ import jakarta.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
@@ -15,6 +16,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import com.example.demo.entity.Contact;
 import com.example.demo.form.ContactForm;
 import com.example.demo.repository.ContactRepository;
+
+import com.example.demo.data.ContactData;
 
 @Controller
 public class ContactController {
